@@ -24,7 +24,7 @@ steps:
     provider: aws
     workingDirectory: "$(System.DefaultWorkingDirectory)"
     backendServiceAWS: "AWS-Terraform"
-    backendAWSBucketName: "skundu-terraform-remote-state"
+    backendAWSBucketName: "211125605907-kpalsam-terraform-remote-state"
     backendAWSKey: "tf/ADO-TF-AWSS3-Int/terraform.tfstate"
 
 # Your build pipeline references a secret variable named ‘access_key’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
